@@ -1,9 +1,0 @@
-{
-  "functions": {
-    "api/convert.js": {
-      "maxDuration": 30,
-      "memory": 1024,
-      "includeFiles": "fonts/**"
-    }
-  }
-}
