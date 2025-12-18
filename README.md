@@ -1,6 +1,6 @@
-# SVG to PNG Converter API
+# SVG to PNG Converter API v2
 
-A simple Vercel serverless function that converts SVG strings to PNG images.
+A Vercel serverless function that converts SVG strings to PNG images using Resvg for better font support.
 
 ## Endpoint
 
@@ -27,11 +27,3 @@ A simple Vercel serverless function that converts SVG strings to PNG images.
   "height": 600
 }
 ```
-
-## Usage in n8n
-
-Use an HTTP Request node with:
-- Method: POST
-- URL: https://your-vercel-url.vercel.app/api/convert
-- Body Type: JSON
-- Body: `{ "svg": "your-svg-string", "width": 600, "height": 600 }`
