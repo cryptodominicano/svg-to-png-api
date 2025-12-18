@@ -1,0 +1,12 @@
+{
+  "name": "svg-to-png-api",
+  "version": "5.0.0",
+  "description": "Logo PNG generator using canvas",
+  "main": "api/convert.js",
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.52"
+  },
+  "engines": {
+    "node": "20.x"
+  }
+}
