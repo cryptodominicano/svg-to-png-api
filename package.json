@@ -1,0 +1,12 @@
+{
+  "name": "svg-to-png-api",
+  "version": "3.0.0",
+  "description": "Serverless API to convert SVG to PNG with bundled fonts",
+  "main": "api/convert.js",
+  "dependencies": {
+    "@resvg/resvg-js": "^2.6.0"
+  },
+  "engines": {
+    "node": "20.x"
+  }
+}
